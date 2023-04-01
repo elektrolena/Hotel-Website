@@ -1,0 +1,205 @@
+h1, h2, h3, h4, h5, h6{
+    color: rgb(113, 89, 26);
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+ul{
+    margin-right: 10px;
+    justify-content: space-between;
+  }
+
+ul li a{
+   font-size: 15px;
+   text-decoration: none;
+   padding: 5px 2px;
+   margin: 0;
+}
+
+#th{
+    color: rgb(113, 89, 26);
+    font-weight: 900;
+}
+
+
+#seite{
+    margin-top: 100px;
+}#seiteImpressum{
+    margin-top: 130px;
+    margin-left: 20px;
+}
+
+button{
+    background-color: beige;
+    padding: 6px;
+    border-radius: 2px;
+    border-color: #71591A;
+}
+
+button:hover{
+    background-color:#71591A;
+    color:#E7AD15 ;
+}
+
+a:hover { color: #E7AD15; }
+
+.error {
+    margin-left: 20px;
+}
+/* Navbar */
+#button3{
+    display:inline-block;
+    padding:0.2em 1em;
+    margin:0;
+    border-radius:2em;
+    border-color: #71591A;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:600;
+    color:#71591A;
+    background-color: #EEE8AA ;
+    text-align:center;
+    transition: all 0.2s;
+}
+#button3:hover{
+    background-color:#71591A;
+    color:#E7AD15 ;
+}
+@media all and (max-width:30em){
+  #button3{
+    display:block;
+    /*margin:0.2em auto;*/
+  }
+}
+
+
+.LOGO{
+    width: 15%;
+    height: 15%;
+    margin-left: -100px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.LOGOsmall{
+    width: 30%;
+    height: 30%;
+    margin-left: -130px;
+    margin-right: 5px;
+}
+
+#TEXT{
+    font-size: 15pt;
+    font-family:'Times New Roman', Times, serif;
+    vertical-align: -18px;
+    initial-letter:initial;
+}
+
+#TEXTLOGO{
+    width: 34%;
+}
+
+.firstletter{
+    font-size: 25pt;
+    font-style: solid;
+}
+
+#a{
+    font-size: 11pt;
+}
+
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../HotelHelenaImages/haus.jpg");
+    min-height: 100%;
+}
+  
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+/*all hamburger*/
+#mynavhidden{
+    display: none;
+}
+
+#ham-bars {
+    margin-top: 15px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+#ulhidden{
+    margin-top: 60px;
+    margin-right: 10px;
+    justify-content: space-between;
+    list-style: none;
+  }
+  
+#ahidden{
+    text-decoration: none;
+}
+  
+  
+  
+#ahidden:hover { color: #E7AD15; }  
+
+/*MAPS*/
+.container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+  
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+#neu{
+    background-color: orange;
+    border-color: black;
+    color: black;
+}
+#neu:hover{
+    background-color: greenyellow;
+    border-color: black;
+    color: black; 
+}
+#bestaetigt{
+    background-color: greenyellow;
+    border-color: black;
+    color: black;
+}
+#bestaetigt:hover{
+    background-color: red;
+    border-color: black;
+    color: black; 
+}
+#storniert{
+    background-color: red;
+    border-color: black;
+    color: black;
+}
+#storniert:hover{
+    background-color: greenyellow;
+    border-color: black;
+    color: black; 
+}
